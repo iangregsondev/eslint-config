@@ -1,0 +1,28 @@
+{
+  "name": "@iangregsondev/eslint-config",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A standard base ESLint configuration file",
+  "license": "MIT",
+  "author": "Ian Gregson <ian@iangregson.dev> (https://iangregson.dev)",
+  "keywords": ["eslint", "eslintconfig"],
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\" --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "25.2.1",
+    "@types/node": "^13.11.0",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
