@@ -16,7 +16,7 @@
 ## Install
 
 ```sh
-npm install
+npm install @iangregsondev/eslint-config
 ```
 
 ## Author
