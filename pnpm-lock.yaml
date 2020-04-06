@@ -275,7 +275,6 @@ packages:
       functional-red-black-tree: 1.0.1
       regexpp: 3.1.0
       tsutils: 3.17.1_typescript@3.8.3
-      typescript: 3.8.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -310,7 +309,6 @@ packages:
       '@typescript-eslint/typescript-estree': 2.26.0_typescript@3.8.3
       eslint: 6.8.0
       eslint-visitor-keys: 1.1.0
-      typescript: 3.8.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -331,7 +329,6 @@ packages:
       lodash: 4.17.15
       semver: 6.3.0
       tsutils: 3.17.1_typescript@3.8.3
-      typescript: 3.8.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -3362,4 +3359,4 @@ specifiers:
   eslint-plugin-import: 2.20.2
   prettier: 2.0.3
   semantic-release: 17.0.4
-  typescript: ^3.8.3
+  typescript: 3.8.3
