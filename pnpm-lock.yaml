@@ -5,7 +5,7 @@ devDependencies:
   eslint-config-prettier: 6.11.0_eslint@6.8.0
   eslint-plugin-import: 2.20.2_eslint@6.8.0
   prettier: 2.0.5
-  semantic-release: 17.0.6_semantic-release@17.0.6
+  semantic-release: 17.0.7_semantic-release@17.0.7
   typescript: 3.8.3
 lockfileVersion: 5.1
 packages:
@@ -59,7 +59,7 @@ packages:
       integrity: sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ==
   /@octokit/auth-token/2.4.0:
     dependencies:
-      '@octokit/types': 2.10.0
+      '@octokit/types': 2.11.1
     dev: true
     resolution:
       integrity: sha512-eoOVMjILna7FVQf96iWc3+ZtE/ZT6y8ob8ZzcqKY1ibSQCnu4O/B7pJvzMx5cyZ/RjAff6DAdEb0O0Cjcxidkg==
@@ -67,32 +67,32 @@ packages:
     dependencies:
       '@octokit/auth-token': 2.4.0
       '@octokit/graphql': 4.3.1
-      '@octokit/request': 5.4.0
-      '@octokit/types': 2.10.0
+      '@octokit/request': 5.4.2
+      '@octokit/types': 2.11.1
       before-after-hook: 2.1.0
       universal-user-agent: 5.0.0
     dev: true
     resolution:
       integrity: sha512-uvzmkemQrBgD8xuGbjhxzJN1darJk9L2cS+M99cHrDG2jlSVpxNJVhoV86cXdYBqdHCc9Z995uLCczaaHIYA6Q==
-  /@octokit/endpoint/6.0.0:
+  /@octokit/endpoint/6.0.1:
     dependencies:
-      '@octokit/types': 2.10.0
+      '@octokit/types': 2.11.1
       is-plain-object: 3.0.0
       universal-user-agent: 5.0.0
     dev: true
     resolution:
-      integrity: sha512-3nx+MEYoZeD0uJ+7F/gvELLvQJzLXhep2Az0bBSXagbApDvDW0LWwpnAIY/hb0Jwe17A0fJdz0O12dPh05cj7A==
+      integrity: sha512-pOPHaSz57SFT/m3R5P8MUu4wLPszokn5pXcB/pzavLTQf2jbU+6iayTvzaY6/BiotuRS0qyEUkx3QglT4U958A==
   /@octokit/graphql/4.3.1:
     dependencies:
-      '@octokit/request': 5.4.0
-      '@octokit/types': 2.10.0
+      '@octokit/request': 5.4.2
+      '@octokit/types': 2.11.1
       universal-user-agent: 4.0.1
     dev: true
     resolution:
       integrity: sha512-hCdTjfvrK+ilU2keAdqNBWOk+gm1kai1ZcdjRfB30oA3/T6n53UVJb7w0L5cR3/rhU91xT3HSqCd+qbvH06yxA==
   /@octokit/plugin-paginate-rest/2.1.0:
     dependencies:
-      '@octokit/types': 2.10.0
+      '@octokit/types': 2.11.1
     dev: true
     resolution:
       integrity: sha512-7+/7urDH8cy6DmTwkewysf7/Or9dFtwZK7aQOc/IImjyeHJy+C8CEKOPo7L5Qb+66HyAr/4p/zV76LMVMuiRtA==
@@ -100,26 +100,26 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ywoxP68aOT3zHCLgWZgwUJatiENeHE7xJzYjfz8WI0goynp96wETBF+d95b8g/uL4QmS6owPVlaxiz3wyMAzcw==
-  /@octokit/plugin-rest-endpoint-methods/3.5.2:
+  /@octokit/plugin-rest-endpoint-methods/3.7.1:
     dependencies:
-      '@octokit/types': 2.10.0
+      '@octokit/types': 2.11.1
       deprecation: 2.3.1
     dev: true
     resolution:
-      integrity: sha512-i5GlEWm7k/SzBr7QrIOuas/1nNgr4JcmgM14TAKULVkv4L5mOY+pcVIUMU3qdYhFyblBFhigujav5seMnkqBnQ==
+      integrity: sha512-YOlcE3bbk2ohaOVdRj9ww7AUYfmnS9hwJJGSj3/rFlNfMGOId4G8dLlhghXpdNSn05H0FRoI94UlFUKnn30Cyw==
   /@octokit/request-error/2.0.0:
     dependencies:
-      '@octokit/types': 2.10.0
+      '@octokit/types': 2.11.1
       deprecation: 2.3.1
       once: 1.4.0
     dev: true
     resolution:
       integrity: sha512-rtYicB4Absc60rUv74Rjpzek84UbVHGHJRu4fNVlZ1mCcyUPPuzFfG9Rn6sjHrd95DEsmjSt1Axlc699ZlbDkw==
-  /@octokit/request/5.4.0:
+  /@octokit/request/5.4.2:
     dependencies:
-      '@octokit/endpoint': 6.0.0
+      '@octokit/endpoint': 6.0.1
       '@octokit/request-error': 2.0.0
-      '@octokit/types': 2.10.0
+      '@octokit/types': 2.11.1
       deprecation: 2.3.1
       is-plain-object: 3.0.0
       node-fetch: 2.6.0
@@ -127,23 +127,23 @@ packages:
       universal-user-agent: 5.0.0
     dev: true
     resolution:
-      integrity: sha512-uAJO6GI8z8VHBqtY7VTL9iFy1Y+UTp5ShpI97tY5z0qBfYKE9rZCRsCm23VmF00x+IoNJ7a0nuVITs/+wS9/mg==
-  /@octokit/rest/17.3.0:
+      integrity: sha512-zKdnGuQ2TQ2vFk9VU8awFT4+EYf92Z/v3OlzRaSh4RIP0H6cvW1BFPXq4XYvNez+TPQjqN+0uSkCYnMFFhcFrw==
+  /@octokit/rest/17.5.1:
     dependencies:
       '@octokit/core': 2.5.0
       '@octokit/plugin-paginate-rest': 2.1.0
       '@octokit/plugin-request-log': 1.0.0
-      '@octokit/plugin-rest-endpoint-methods': 3.5.2
+      '@octokit/plugin-rest-endpoint-methods': 3.7.1
     dev: true
     resolution:
-      integrity: sha512-zqvsnWUEldmF3sCmGGlQ2u+NDQMpF5O4gnwefnGt6yJcN6eGWDYJJvRD/wQ1/nALXU0XABhQElBgR/0wNoprsA==
-  /@octokit/types/2.10.0:
+      integrity: sha512-0rGY7eo0cw8FYX7jAtUgfy3j+05zhs9JvkPFegx00HAaayodM1ixlHhCOB5yirGbsVOxbRIWVkvKc2yY9367gg==
+  /@octokit/types/2.11.1:
     dependencies:
-      '@types/node': 13.11.1
+      '@types/node': 13.13.1
     dev: true
     resolution:
-      integrity: sha512-0/NN22MgQvNNgMjTwzWUzcIfFfks3faqiP1D1oQQz49KYeOWc+KkRG9ASbAPurrAnOaDiqnnuDYzhNT9cq4e8Q==
-  /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.0.6:
+      integrity: sha512-QaLoLkmFdfoNbk3eOzPv7vKrUY0nRJIYmZDoz/pTer4ICpqu80aSQTVHnnUxEFuURCiidig76CcxUOYC/bY3RQ==
+  /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.0.7:
     dependencies:
       conventional-changelog-angular: 5.0.6
       conventional-commits-filter: 2.0.2
@@ -152,7 +152,7 @@ packages:
       import-from: 3.0.0
       lodash: 4.17.15
       micromatch: 4.0.2
-      semantic-release: 17.0.6_semantic-release@17.0.6
+      semantic-release: 17.0.7_semantic-release@17.0.7
     dev: true
     engines:
       node: '>=10.18'
@@ -164,9 +164,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
-  /@semantic-release/github/7.0.5_semantic-release@17.0.6:
+  /@semantic-release/github/7.0.5_semantic-release@17.0.7:
     dependencies:
-      '@octokit/rest': 17.3.0
+      '@octokit/rest': 17.5.1
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.0.1
       bottleneck: 2.19.5
@@ -181,7 +181,7 @@ packages:
       mime: 2.4.4
       p-filter: 2.1.0
       p-retry: 4.2.0
-      semantic-release: 17.0.6_semantic-release@17.0.6
+      semantic-release: 17.0.7_semantic-release@17.0.7
       url-join: 4.0.1
     dev: true
     engines:
@@ -190,7 +190,7 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-1nJCMeomspRIXKiFO3VXtkUMbIBEreYLFNBdWoLjvlUNcEK0/pEbupEZJA3XHfJuSzv43u3OLpPhF/JBrMuv+A==
-  /@semantic-release/npm/7.0.5_semantic-release@17.0.6:
+  /@semantic-release/npm/7.0.5_semantic-release@17.0.7:
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.0.1
@@ -203,7 +203,7 @@ packages:
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.1.1
-      semantic-release: 17.0.6_semantic-release@17.0.6
+      semantic-release: 17.0.7_semantic-release@17.0.7
       semver: 7.3.2
       tempy: 0.5.0
     dev: true
@@ -213,7 +213,7 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-D+oEmsx9aHE1q806NFQwSC9KdBO8ri/VO99eEz0wWbX2jyLqVyWr7t0IjKC8aSnkkQswg/4KN/ZjfF6iz1XOpw==
-  /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.0.6:
+  /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.0.7:
     dependencies:
       conventional-changelog-angular: 5.0.6
       conventional-changelog-writer: 4.0.11
@@ -225,7 +225,7 @@ packages:
       into-stream: 5.1.1
       lodash: 4.17.15
       read-pkg-up: 7.0.1
-      semantic-release: 17.0.6_semantic-release@17.0.6
+      semantic-release: 17.0.7_semantic-release@17.0.7
     dev: true
     engines:
       node: '>=10.18'
@@ -233,12 +233,12 @@ packages:
       semantic-release: '>=15.8.0 <18.0.0'
     resolution:
       integrity: sha512-bOoTiH6SiiR0x2uywSNR7uZcRDl22IpZhj+Q5Bn0v+98MFtOMhCxFhbrKQjhbYoZw7vps1mvMRmFkp/g6R9cvQ==
-  /@tootallnate/once/1.0.0:
+  /@tootallnate/once/1.1.2:
     dev: true
     engines:
       node: '>= 6'
     resolution:
-      integrity: sha512-KYyTT/T6ALPkIRd2Ge080X/BsXvy9O0hcWTtMWkPvwAwF99+vn6Dv4GzrFT/Nn1LePr+FFDbRXXlqmsy9lw2zA==
+      integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
   /@types/color-name/1.1.1:
     dev: true
     resolution:
@@ -251,10 +251,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA==
-  /@types/node/13.11.1:
+  /@types/node/13.13.1:
     dev: true
     resolution:
-      integrity: sha512-eWQGP3qtxwL8FGneRrC5DwrJLGN4/dH1clNTuLfN81HCrxVtxRjygDTUoZJ5ASlDEeo0ppYFQjQIlXhtXpOn6g==
+      integrity: sha512-uysqysLJ+As9jqI5yqjwP3QJrhOcUwBjHUlUxPxjbplwKoILvXVsmYWEhfmAQlrPfbRZmhJB007o4L9sKqtHqQ==
   /@types/normalize-package-data/2.4.0:
     dev: true
     resolution:
@@ -723,7 +723,7 @@ packages:
       import-fresh: 3.2.1
       parse-json: 5.0.0
       path-type: 4.0.0
-      yaml: 1.8.3
+      yaml: 1.9.2
     dev: true
     engines:
       node: '>=8'
@@ -1408,7 +1408,7 @@ packages:
       integrity: sha512-4oT62d2jwSDBbLLFLZE+1vPuQ1h8p9wjrJ8Mqx5TjsyWmBMV5B13eJqn8pvluqubLf3cJPTfiYCIwNwDNmzScQ==
   /http-proxy-agent/4.0.1:
     dependencies:
-      '@tootallnate/once': 1.0.0
+      '@tootallnate/once': 1.1.2
       agent-base: 6.0.0
       debug: 4.1.1
     dev: true
@@ -1835,13 +1835,13 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-plzSkIepJZi4eRJXpSPgISIqwfk=
-  /marked-terminal/4.0.0_marked@0.8.2:
+  /marked-terminal/4.0.0_marked@1.0.0:
     dependencies:
       ansi-escapes: 4.3.1
       cardinal: 2.1.1
       chalk: 3.0.0
       cli-table: 0.3.1
-      marked: 0.8.2
+      marked: 1.0.0
       node-emoji: 1.10.0
       supports-hyperlinks: 2.1.0
     dev: true
@@ -1849,13 +1849,13 @@ packages:
       marked: ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.7.0 || ^0.8.0
     resolution:
       integrity: sha512-mzU3VD7aVz12FfGoKFAceijehA6Ocjfg3rVimvJbFAB/NOYCsuzRVtq3PSFdPmWI5mhdGeEh3/aMJ5DSxAz94Q==
-  /marked/0.8.2:
+  /marked/1.0.0:
     dev: true
     engines:
       node: '>= 8.16.2'
     hasBin: true
     resolution:
-      integrity: sha512-EGwzEeCcLniFX51DhTpmTom+dSA/MG/OBUDjnWtHbEnjAH180VzUeAw+oE4+Zv+CoYBWyRlYOTR0N8SO9R1PVw==
+      integrity: sha512-Wo+L1pWTVibfrSr+TTtMuiMfNzmZWiOPeO7rZsQUY5bgsxpHesBEcIWJloWVTFnrMXnf/TL30eTFSGJddmQAng==
   /meow/5.0.0:
     dependencies:
       camelcase-keys: 4.2.0
@@ -2698,13 +2698,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-  /semantic-release/17.0.6_semantic-release@17.0.6:
+  /semantic-release/17.0.7_semantic-release@17.0.7:
     dependencies:
-      '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.0.6
+      '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.0.7
       '@semantic-release/error': 2.2.0
-      '@semantic-release/github': 7.0.5_semantic-release@17.0.6
-      '@semantic-release/npm': 7.0.5_semantic-release@17.0.6
-      '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.0.6
+      '@semantic-release/github': 7.0.5_semantic-release@17.0.7
+      '@semantic-release/npm': 7.0.5_semantic-release@17.0.7
+      '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.0.7
       aggregate-error: 3.0.1
       cosmiconfig: 6.0.0
       debug: 4.1.1
@@ -2717,8 +2717,8 @@ packages:
       hook-std: 2.0.0
       hosted-git-info: 3.0.4
       lodash: 4.17.15
-      marked: 0.8.2
-      marked-terminal: 4.0.0_marked@0.8.2
+      marked: 1.0.0
+      marked-terminal: 4.0.0_marked@1.0.0
       micromatch: 4.0.2
       p-each-series: 2.1.0
       p-reduce: 2.1.0
@@ -2735,7 +2735,7 @@ packages:
     peerDependencies:
       semantic-release: '*'
     resolution:
-      integrity: sha512-4djSoKUiq8ShAiKEzDKkcrzFyDREFJRMsY/efr/b48dcin2g+s4TsZUTniTg3Zvk+TM9G5rNBKyXfFgVO6wJNA==
+      integrity: sha512-F6FzJI1yiGavzCTXir4yPthK/iozZPJ4myUYndiHhSHbmOcCSJ2m7V+P6sFwVpDpQKQp1Q31M68sTJ/Q/27Bow==
   /semver-diff/3.1.1:
     dependencies:
       semver: 6.3.0
@@ -3309,14 +3309,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
-  /yaml/1.8.3:
+  /yaml/1.9.2:
     dependencies:
       '@babel/runtime': 7.9.2
     dev: true
     engines:
       node: '>= 6'
     resolution:
-      integrity: sha512-X/v7VDnK+sxbQ2Imq4Jt2PRUsRsP7UcpSl3Llg6+NRRqWLIvxkMFYtH1FmvwNGYRKKPa+EPA4qDBlI9WVG1UKw==
+      integrity: sha512-HPT7cGGI0DuRcsO51qC1j9O16Dh1mZ2bnXwsi0jrSpsLz0WxOLSLXfkABVl6bZO629py3CU+OMJtpNHDLB97kg==
   /yargs-parser/10.1.0:
     dependencies:
       camelcase: 4.1.0
@@ -3357,5 +3357,5 @@ specifiers:
   eslint-config-prettier: 6.11.0
   eslint-plugin-import: 2.20.2
   prettier: 2.0.5
-  semantic-release: 17.0.6
+  semantic-release: 17.0.7
   typescript: 3.8.3
