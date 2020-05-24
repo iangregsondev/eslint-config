@@ -5,7 +5,7 @@ devDependencies:
   eslint-config-prettier: 6.11.0_eslint@6.8.0
   eslint-plugin-import: 2.20.2_eslint@6.8.0
   prettier: 2.0.5
-  semantic-release: 17.0.7_semantic-release@17.0.7
+  semantic-release: 17.0.8_semantic-release@17.0.8
   typescript: 3.9.3
 lockfileVersion: 5.1
 packages:
@@ -143,7 +143,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-QaLoLkmFdfoNbk3eOzPv7vKrUY0nRJIYmZDoz/pTer4ICpqu80aSQTVHnnUxEFuURCiidig76CcxUOYC/bY3RQ==
-  /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.0.7:
+  /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.0.8:
     dependencies:
       conventional-changelog-angular: 5.0.6
       conventional-commits-filter: 2.0.2
@@ -152,7 +152,7 @@ packages:
       import-from: 3.0.0
       lodash: 4.17.15
       micromatch: 4.0.2
-      semantic-release: 17.0.7_semantic-release@17.0.7
+      semantic-release: 17.0.8_semantic-release@17.0.8
     dev: true
     engines:
       node: '>=10.18'
@@ -164,7 +164,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
-  /@semantic-release/github/7.0.5_semantic-release@17.0.7:
+  /@semantic-release/github/7.0.5_semantic-release@17.0.8:
     dependencies:
       '@octokit/rest': 17.5.1
       '@semantic-release/error': 2.2.0
@@ -181,7 +181,7 @@ packages:
       mime: 2.4.4
       p-filter: 2.1.0
       p-retry: 4.2.0
-      semantic-release: 17.0.7_semantic-release@17.0.7
+      semantic-release: 17.0.8_semantic-release@17.0.8
       url-join: 4.0.1
     dev: true
     engines:
@@ -190,7 +190,7 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-1nJCMeomspRIXKiFO3VXtkUMbIBEreYLFNBdWoLjvlUNcEK0/pEbupEZJA3XHfJuSzv43u3OLpPhF/JBrMuv+A==
-  /@semantic-release/npm/7.0.5_semantic-release@17.0.7:
+  /@semantic-release/npm/7.0.5_semantic-release@17.0.8:
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.0.1
@@ -203,7 +203,7 @@ packages:
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.1.1
-      semantic-release: 17.0.7_semantic-release@17.0.7
+      semantic-release: 17.0.8_semantic-release@17.0.8
       semver: 7.3.2
       tempy: 0.5.0
     dev: true
@@ -213,7 +213,7 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-D+oEmsx9aHE1q806NFQwSC9KdBO8ri/VO99eEz0wWbX2jyLqVyWr7t0IjKC8aSnkkQswg/4KN/ZjfF6iz1XOpw==
-  /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.0.7:
+  /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.0.8:
     dependencies:
       conventional-changelog-angular: 5.0.6
       conventional-changelog-writer: 4.0.11
@@ -225,7 +225,7 @@ packages:
       into-stream: 5.1.1
       lodash: 4.17.15
       read-pkg-up: 7.0.1
-      semantic-release: 17.0.7_semantic-release@17.0.7
+      semantic-release: 17.0.8_semantic-release@17.0.8
     dev: true
     engines:
       node: '>=10.18'
@@ -275,6 +275,7 @@ packages:
       functional-red-black-tree: 1.0.1
       regexpp: 3.1.0
       tsutils: 3.17.1_typescript@3.9.3
+      typescript: 3.9.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -309,6 +310,7 @@ packages:
       '@typescript-eslint/typescript-estree': 2.34.0_typescript@3.9.3
       eslint: 6.8.0
       eslint-visitor-keys: 1.1.0
+      typescript: 3.9.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -329,6 +331,7 @@ packages:
       lodash: 4.17.15
       semver: 7.3.2
       tsutils: 3.17.1_typescript@3.9.3
+      typescript: 3.9.3
     dev: true
     engines:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
@@ -2698,13 +2701,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-  /semantic-release/17.0.7_semantic-release@17.0.7:
+  /semantic-release/17.0.8_semantic-release@17.0.8:
     dependencies:
-      '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.0.7
+      '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.0.8
       '@semantic-release/error': 2.2.0
-      '@semantic-release/github': 7.0.5_semantic-release@17.0.7
-      '@semantic-release/npm': 7.0.5_semantic-release@17.0.7
-      '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.0.7
+      '@semantic-release/github': 7.0.5_semantic-release@17.0.8
+      '@semantic-release/npm': 7.0.5_semantic-release@17.0.8
+      '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.0.8
       aggregate-error: 3.0.1
       cosmiconfig: 6.0.0
       debug: 4.1.1
@@ -2735,7 +2738,7 @@ packages:
     peerDependencies:
       semantic-release: '*'
     resolution:
-      integrity: sha512-F6FzJI1yiGavzCTXir4yPthK/iozZPJ4myUYndiHhSHbmOcCSJ2m7V+P6sFwVpDpQKQp1Q31M68sTJ/Q/27Bow==
+      integrity: sha512-9KcdidiJ4xchrJXxPdaDQVlybgX0xTeKyVjRySYk5u9GpjibXD7E5F8cB0BvFLMDmMyrkCwcem0kFiaLD2VNPg==
   /semver-diff/3.1.1:
     dependencies:
       semver: 6.3.0
@@ -3361,5 +3364,5 @@ specifiers:
   eslint-config-prettier: 6.11.0
   eslint-plugin-import: 2.20.2
   prettier: 2.0.5
-  semantic-release: 17.0.7
+  semantic-release: 17.0.8
   typescript: 3.9.3
