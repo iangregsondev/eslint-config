@@ -4,7 +4,7 @@ devDependencies:
   eslint: 6.8.0
   eslint-config-prettier: 6.11.0_eslint@6.8.0
   eslint-plugin-import: 2.22.0_eslint@6.8.0
-  prettier: 2.1.1
+  prettier: 2.1.2
   semantic-release: 17.1.1_semantic-release@17.1.1
   typescript: 3.9.7
 lockfileVersion: 5.1
@@ -2451,13 +2451,13 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
-  /prettier/2.1.1:
+  /prettier/2.1.2:
     dev: true
     engines:
       node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-9bY+5ZWCfqj3ghYBLxApy2zf6m+NJo5GzmLTpr9FsApsfjriNnS2dahWReHMi7qNPhhHl9SYHJs2cHZLgexNIw==
+      integrity: sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
   /process-nextick-args/2.0.1:
     dev: true
     resolution:
@@ -3390,6 +3390,6 @@ specifiers:
   eslint: 6.8.0
   eslint-config-prettier: 6.11.0
   eslint-plugin-import: 2.22.0
-  prettier: 2.1.1
+  prettier: 2.1.2
   semantic-release: 17.1.1
   typescript: 3.9.7
