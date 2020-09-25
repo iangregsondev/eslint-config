@@ -2,7 +2,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 2.34.0_5004700905763c91177aaa7d1d0d56ac
   '@typescript-eslint/parser': 2.34.0_eslint@6.8.0+typescript@3.9.7
   eslint: 6.8.0
-  eslint-config-prettier: 6.11.0_eslint@6.8.0
+  eslint-config-prettier: 6.12.0_eslint@6.8.0
   eslint-plugin-import: 2.22.0_eslint@6.8.0
   prettier: 2.1.2
   semantic-release: 17.1.2_semantic-release@17.1.2
@@ -927,7 +927,7 @@ packages:
       node: '>=0.8.0'
     resolution:
       integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-  /eslint-config-prettier/6.11.0_eslint@6.8.0:
+  /eslint-config-prettier/6.12.0_eslint@6.8.0:
     dependencies:
       eslint: 6.8.0
       get-stdin: 6.0.0
@@ -936,7 +936,7 @@ packages:
     peerDependencies:
       eslint: '>=3.14.1'
     resolution:
-      integrity: sha512-oB8cpLWSAjOVFEJhhyMZh6NOEOtBVziaqdDQ86+qhDHFbZXoRTM7pNSvFRfW/W/L/LrQ38C99J5CGuRBBzBsdA==
+      integrity: sha512-9jWPlFlgNwRUYVoujvWTQ1aMO8o6648r+K7qU7K5Jmkbyqav1fuEZC0COYpGBxyiAJb65Ra9hrmFx19xRGwXWw==
   /eslint-import-resolver-node/0.3.3:
     dependencies:
       debug: 2.6.9
@@ -3388,7 +3388,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 2.34.0
   '@typescript-eslint/parser': 2.34.0
   eslint: 6.8.0
-  eslint-config-prettier: 6.11.0
+  eslint-config-prettier: 6.12.0
   eslint-plugin-import: 2.22.0
   prettier: 2.1.2
   semantic-release: 17.1.2
