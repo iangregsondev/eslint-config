@@ -2,12 +2,12 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 2.34.0_5004700905763c91177aaa7d1d0d56ac
   '@typescript-eslint/parser': 2.34.0_eslint@6.8.0+typescript@3.9.7
   eslint: 6.8.0
-  eslint-config-prettier: 6.14.0_eslint@6.8.0
+  eslint-config-prettier: 6.15.0_eslint@6.8.0
   eslint-plugin-import: 2.22.1_eslint@6.8.0
   prettier: 2.1.2
-  semantic-release: 17.2.1_semantic-release@17.2.1
+  semantic-release: 17.2.1
   typescript: 3.9.7
-lockfileVersion: 5.1
+lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.8.3:
     dependencies:
@@ -152,7 +152,7 @@ packages:
       import-from: 3.0.0
       lodash: 4.17.15
       micromatch: 4.0.2
-      semantic-release: 17.2.1_semantic-release@17.2.1
+      semantic-release: 17.2.1
     dev: true
     engines:
       node: '>=10.18'
@@ -181,7 +181,7 @@ packages:
       mime: 2.4.4
       p-filter: 2.1.0
       p-retry: 4.2.0
-      semantic-release: 17.2.1_semantic-release@17.2.1
+      semantic-release: 17.2.1
       url-join: 4.0.1
     dev: true
     engines:
@@ -203,7 +203,7 @@ packages:
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.1.1
-      semantic-release: 17.2.1_semantic-release@17.2.1
+      semantic-release: 17.2.1
       semver: 7.3.2
       tempy: 0.5.0
     dev: true
@@ -225,7 +225,7 @@ packages:
       into-stream: 5.1.1
       lodash: 4.17.15
       read-pkg-up: 7.0.1
-      semantic-release: 17.2.1_semantic-release@17.2.1
+      semantic-release: 17.2.1
     dev: true
     engines:
       node: '>=10.18'
@@ -927,7 +927,7 @@ packages:
       node: '>=0.8.0'
     resolution:
       integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-  /eslint-config-prettier/6.14.0_eslint@6.8.0:
+  /eslint-config-prettier/6.15.0_eslint@6.8.0:
     dependencies:
       eslint: 6.8.0
       get-stdin: 6.0.0
@@ -936,7 +936,7 @@ packages:
     peerDependencies:
       eslint: '>=3.14.1'
     resolution:
-      integrity: sha512-DbVwh0qZhAC7CNDWcq8cBdK6FcVHiMTKmCypOPWeZkp9hJ8xYwTaWSa6bb6cjfi8KOeJy0e9a8Izxyx+O4+gCQ==
+      integrity: sha512-a1+kOYLR8wMGustcgAjdydMsQ2A/2ipRPwRKUmfYaSxc9ZPcrku080Ctl6zrZzZNs/U82MjSv+qKREkoq3bJaw==
   /eslint-import-resolver-node/0.3.4:
     dependencies:
       debug: 2.6.9
@@ -2713,7 +2713,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-  /semantic-release/17.2.1_semantic-release@17.2.1:
+  /semantic-release/17.2.1:
     dependencies:
       '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.2.1
       '@semantic-release/error': 2.2.0
@@ -2747,8 +2747,6 @@ packages:
     engines:
       node: '>=10.18'
     hasBin: true
-    peerDependencies:
-      semantic-release: '*'
     resolution:
       integrity: sha512-+xbLWsT9NoibeMMJw4te0pbY4q/Z1gt/vzhB0z9RRNGVyqCgQiK5NUJ11eW6etSyPZ9QFeAMnqO2dzscWUTy2w==
   /semver-diff/3.1.1:
@@ -3382,7 +3380,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 2.34.0
   '@typescript-eslint/parser': 2.34.0
   eslint: 6.8.0
-  eslint-config-prettier: 6.14.0
+  eslint-config-prettier: 6.15.0
   eslint-plugin-import: 2.22.1
   prettier: 2.1.2
   semantic-release: 17.2.1
