@@ -5,7 +5,7 @@ devDependencies:
   eslint-config-prettier: 6.15.0_eslint@6.8.0
   eslint-plugin-import: 2.22.1_eslint@6.8.0
   prettier: 2.2.1
-  semantic-release: 17.3.5
+  semantic-release: 17.3.6
   typescript: 3.9.7
 lockfileVersion: 5.2
 packages:
@@ -27,12 +27,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-lJZPilxX7Op3Nv/2cvFdnlepPXDxi29wxteT57Q965oc5R9v86ztx0jfxVrTcBk8C2kcPkkDa2Z4T3ZsPPVWsQ==
-  /@babel/runtime/7.9.2:
-    dependencies:
-      regenerator-runtime: 0.13.5
-    dev: true
-    resolution:
-      integrity: sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
   /@nodelib/fs.scandir/2.1.3:
     dependencies:
       '@nodelib/fs.stat': 2.0.3
@@ -143,7 +137,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-QaLoLkmFdfoNbk3eOzPv7vKrUY0nRJIYmZDoz/pTer4ICpqu80aSQTVHnnUxEFuURCiidig76CcxUOYC/bY3RQ==
-  /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.3.5:
+  /@semantic-release/commit-analyzer/8.0.1_semantic-release@17.3.6:
     dependencies:
       conventional-changelog-angular: 5.0.6
       conventional-commits-filter: 2.0.2
@@ -152,7 +146,7 @@ packages:
       import-from: 3.0.0
       lodash: 4.17.15
       micromatch: 4.0.2
-      semantic-release: 17.3.5
+      semantic-release: 17.3.6
     dev: true
     engines:
       node: '>=10.18'
@@ -164,7 +158,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
-  /@semantic-release/github/7.0.5_semantic-release@17.3.5:
+  /@semantic-release/github/7.0.5_semantic-release@17.3.6:
     dependencies:
       '@octokit/rest': 17.5.1
       '@semantic-release/error': 2.2.0
@@ -181,7 +175,7 @@ packages:
       mime: 2.4.4
       p-filter: 2.1.0
       p-retry: 4.2.0
-      semantic-release: 17.3.5
+      semantic-release: 17.3.6
       url-join: 4.0.1
     dev: true
     engines:
@@ -190,7 +184,7 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-1nJCMeomspRIXKiFO3VXtkUMbIBEreYLFNBdWoLjvlUNcEK0/pEbupEZJA3XHfJuSzv43u3OLpPhF/JBrMuv+A==
-  /@semantic-release/npm/7.0.5_semantic-release@17.3.5:
+  /@semantic-release/npm/7.0.5_semantic-release@17.3.6:
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.0.1
@@ -203,7 +197,7 @@ packages:
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.1.1
-      semantic-release: 17.3.5
+      semantic-release: 17.3.6
       semver: 7.3.2
       tempy: 0.5.0
     dev: true
@@ -213,7 +207,7 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-D+oEmsx9aHE1q806NFQwSC9KdBO8ri/VO99eEz0wWbX2jyLqVyWr7t0IjKC8aSnkkQswg/4KN/ZjfF6iz1XOpw==
-  /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.3.5:
+  /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.3.6:
     dependencies:
       conventional-changelog-angular: 5.0.6
       conventional-changelog-writer: 4.0.11
@@ -225,7 +219,7 @@ packages:
       into-stream: 5.1.1
       lodash: 4.17.15
       read-pkg-up: 7.0.1
-      semantic-release: 17.3.5
+      semantic-release: 17.3.6
     dev: true
     engines:
       node: '>=10.18'
@@ -718,18 +712,18 @@ packages:
     dev: true
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
-  /cosmiconfig/6.0.0:
+  /cosmiconfig/7.0.0:
     dependencies:
       '@types/parse-json': 4.0.0
       import-fresh: 3.2.1
       parse-json: 5.0.0
       path-type: 4.0.0
-      yaml: 1.9.2
+      yaml: 1.10.0
     dev: true
     engines:
-      node: '>=8'
+      node: '>=10'
     resolution:
-      integrity: sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==
+      integrity: sha512-pondGvTuVYDk++upghXJabWzL6Kxu6f26ljFw64Swq9v6sQPUL3EUlVDV56diOjpCayKihL6hVe8exIACU4XcA==
   /cross-spawn/6.0.5:
     dependencies:
       nice-try: 1.0.5
@@ -742,7 +736,7 @@ packages:
       node: '>=4.8'
     resolution:
       integrity: sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
-  /cross-spawn/7.0.2:
+  /cross-spawn/7.0.3:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
@@ -751,7 +745,7 @@ packages:
     engines:
       node: '>= 8'
     resolution:
-      integrity: sha512-PD6G8QG3S4FK/XCGFbEQrDqO2AnMMsy0meR7lerlIOHAAbkuavGU/pOqprrlvfTNjvowivTeBsjebAL0NSoMxw==
+      integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
   /crypto-random-string/2.0.0:
     dev: true
     engines:
@@ -1120,13 +1114,13 @@ packages:
       integrity: sha512-adbxcyWV46qiHyvSp50TKt05tB4tK3HcmF7/nxfAdhnox83seTDbwnaqKO4sXRy7roHAIFqJP/Rw/AuEbX61LA==
   /execa/4.0.0:
     dependencies:
-      cross-spawn: 7.0.2
+      cross-spawn: 7.0.3
       get-stream: 5.1.0
       human-signals: 1.1.1
       is-stream: 2.0.0
       merge-stream: 2.0.0
       npm-run-path: 4.0.1
-      onetime: 5.1.0
+      onetime: 5.1.2
       signal-exit: 3.0.3
       strip-final-newline: 2.0.0
     dev: true
@@ -1134,6 +1128,22 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-JbDUxwV3BoT5ZVXQrSVbAiaXhXUkIwvbhPIwZ0N13kX+5yCzOhUNdocxB/UQRuYOHRYYwAxKYwJYc0T4D12pDA==
+  /execa/5.0.0:
+    dependencies:
+      cross-spawn: 7.0.3
+      get-stream: 6.0.0
+      human-signals: 2.1.0
+      is-stream: 2.0.0
+      merge-stream: 2.0.0
+      npm-run-path: 4.0.1
+      onetime: 5.1.2
+      signal-exit: 3.0.3
+      strip-final-newline: 2.0.0
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==
   /external-editor/3.1.0:
     dependencies:
       chardet: 0.7.0
@@ -1304,6 +1314,12 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-EXr1FOzrzTfGeL0gQdeFEvOMm2mzMOglyiOXSTpPC+iAjAKftbr3jpCMWynogwYnM+eSj9sHGc6wjIcDvYiygw==
+  /get-stream/6.0.0:
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-A1B3Bh1UmL0bidM/YX2NsCOTnGJePL9rO/M+Mw3m9f2gUpfokS0hi5Eah0WSUEWZdZhIZtMjkIYS7mDfOqNHbg==
   /git-log-parser/1.2.0:
     dependencies:
       argv-formatter: 1.0.0
@@ -1440,6 +1456,12 @@ packages:
       node: '>=8.12.0'
     resolution:
       integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
+  /human-signals/2.1.0:
+    dev: true
+    engines:
+      node: '>=10.17.0'
+    resolution:
+      integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -2201,6 +2223,14 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-5NcSkPHhwTVFIQN+TUqXoS5+dlElHXdpAWu9I0HP20YOtIi+aZ0Ct82jdlILDxjLEAWwvm+qj1m6aEtsDVmm6Q==
+  /onetime/5.1.2:
+    dependencies:
+      mimic-fn: 2.1.0
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   /optionator/0.8.3:
     dependencies:
       deep-is: 0.1.3
@@ -2602,10 +2632,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-iYS1gV2ZyyIEacme7v/jiRPmzAs=
-  /regenerator-runtime/0.13.5:
-    dev: true
-    resolution:
-      integrity: sha512-ZS5w8CpKFinUzOwW3c83oPeVXoNsrLsaCoLtJvAClH135j/R77RuymhiSErhm2lKcwSCIpmvIWSbDkIfAqKQlA==
   /regexpp/2.0.1:
     dev: true
     engines:
@@ -2711,18 +2737,18 @@ packages:
     dev: true
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-  /semantic-release/17.3.5:
+  /semantic-release/17.3.6:
     dependencies:
-      '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.3.5
+      '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.3.6
       '@semantic-release/error': 2.2.0
-      '@semantic-release/github': 7.0.5_semantic-release@17.3.5
-      '@semantic-release/npm': 7.0.5_semantic-release@17.3.5
-      '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.3.5
+      '@semantic-release/github': 7.0.5_semantic-release@17.3.6
+      '@semantic-release/npm': 7.0.5_semantic-release@17.3.6
+      '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.3.6
       aggregate-error: 3.0.1
-      cosmiconfig: 6.0.0
+      cosmiconfig: 7.0.0
       debug: 4.1.1
       env-ci: 5.0.2
-      execa: 4.0.0
+      execa: 5.0.0
       figures: 3.2.0
       find-versions: 4.0.0
       get-stream: 5.1.0
@@ -2746,7 +2772,7 @@ packages:
       node: '>=10.18'
     hasBin: true
     resolution:
-      integrity: sha512-NvXg5wiaovoKTLS/gpj/AQlXDE/nxK1jweDGkNPwHainlukmc+hBeufICOiyyFat9YFH1eJN0c3DXLAKAB+pig==
+      integrity: sha512-zPAFxmnMtEVbN1Lzxz+CMXlt5a9txB/PRWaVq+oAC9Mppbax/vWXZ0kisHX92O+BjEBbsaFtISjz82E+2Ro9gQ==
   /semver-diff/3.1.1:
     dependencies:
       semver: 6.3.0
@@ -3327,14 +3353,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
-  /yaml/1.9.2:
-    dependencies:
-      '@babel/runtime': 7.9.2
+  /yaml/1.10.0:
     dev: true
     engines:
       node: '>= 6'
     resolution:
-      integrity: sha512-HPT7cGGI0DuRcsO51qC1j9O16Dh1mZ2bnXwsi0jrSpsLz0WxOLSLXfkABVl6bZO629py3CU+OMJtpNHDLB97kg==
+      integrity: sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
   /yargs-parser/10.1.0:
     dependencies:
       camelcase: 4.1.0
@@ -3368,5 +3392,5 @@ specifiers:
   eslint-config-prettier: 6.15.0
   eslint-plugin-import: 2.22.1
   prettier: 2.2.1
-  semantic-release: 17.3.5
+  semantic-release: 17.3.6
   typescript: 3.9.7
