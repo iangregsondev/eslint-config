@@ -38,7 +38,7 @@
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-import": "2.22.1",
     "prettier": "2.2.1",
-    "semantic-release": "17.3.7",
+    "semantic-release": "17.3.8",
     "typescript": "3.9.7"
   },
   "peerDependencies": {
